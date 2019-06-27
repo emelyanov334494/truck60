@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <script src="jquery-3.3.1.min.js"></script>
+  <script src="ajax.js"></script>
+</head>
+<body>
+    <form method="post" id="ajax_form" action="" >
+    <table>
+            <tr>
+                <td>
+                    <label for="name">Your name:</label></td>
+                <td>
+                    <input type="text" name = "name"/></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="color">Your favourite color:</label></td>
+                <td>
+                    <select name = "color">
+                        <option value="Green">Green</option>
+                        <option value="Red">Red</option>
+                        <option value="Yellow">Yellow</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="18-years">You are older than 18 years</label></td>
+                <td>
+                    <input type="checkbox" name="howold" /></td>
+            </tr>
+            <tr>
+                <td>Your favourite time of day:</td>
+                <td>
+                    <input type="radio" value="Morning" name="daytime" />
+                    <label for="radio-morning">Morning</label>
+                    <br />
+                    <input type="radio" value="Evening" name="daytime" />
+                    <label for="radio-evening">Evening</label>
+                    <br />
+                    <input type="radio" value="Night" name="daytime" />
+                    <label for="radio-night">Night</label>
+                    <br />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" id="button" value="Send" />
+                </td>
+            </tr>
+    </table>
+    <hr>
+    </form>
+    <div id="result_form"><div> 
+</body>
+</html>
